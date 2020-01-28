@@ -1,0 +1,41 @@
+.backgroundColour {
+  viewport-fill: black;
+}
+
+.primaryColour {
+  fill: aliceblue;
+}
+
+.secondaryColour {
+  fill: steelblue;
+}
+
+.timeField {
+  font-size: 108;
+  font-family: Seville-Bold;
+  text-length: 5;
+}
+
+#dateField {
+  font-size: 44;
+  font-family: Seville-Regular;
+  text-length: 12;
+  text-anchor: middle;
+}
+
+.statsImage {
+  width: 48;
+  height: 48;
+  x: 14%;
+  y: 27%;
+}
+
+.statsField {
+  font-family: Seville-Regular;
+  font-size: 58;
+  x: 86%;
+  y: $-4%;
+  text-anchor: end;
+  text-length: 5;
+}
+

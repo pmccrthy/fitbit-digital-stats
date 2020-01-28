@@ -1,0 +1,49 @@
+<svg class="backgroundColour">
+  <gradientRect id="backgroundGradient" x="0" y="0" width="100%" height="100%" opacity="0.5"
+      gradient-type="radial"
+      gradient-x1="50%" gradient-y1="50%"
+      gradient-x2="100%" gradient-y2="100%"
+      gradient-color2="#000000"/>
+    
+  <section x="10%" y="0%" width="80%" height="37%">
+    <text id="dateField" class="secondaryColour" x="50%" y="66%" />
+  </section>
+  
+  <!--
+  <line x1="5%" y1="33%" x2="95%" y2="33%" stroke-width="3" opacity="0.5" class="secondaryColour" />
+  <line x1="5%" y1="67%" x2="95%" y2="67%" stroke-width="3" opacity="0.5" class="secondaryColour" />  
+  <!---->
+  
+  <text id="timeField" class="primaryColour timeField" pointer-events="visible" text-anchor="middle" x="50%" y="62%" />
+  <text id="ampmField" class="secondaryColour" font-size="20" font-family="Seville-Bold"
+    text-length="4" text-anchor="middle" x="50%" y="33%"/>
+  
+  <section x="0%" y="63%" height="37%" width="100%" >
+    <use id="stats-cycle" href="#cycleview" >
+      <use href="#cycleview-item" id="cv1">
+        <image class="statsImage secondaryColour" href="stat_hr_solid_48px.png"/>
+        <text id="heartrateField" class="statsField secondaryColour" />
+      </use>
+      <use href="#cycleview-item" id="cv2">
+        <image class="statsImage secondaryColour" href="stat_am_solid_48px.png" />
+        <text id="actminsField" class="statsField secondaryColour" />
+      </use>
+      <use href="#cycleview-item">
+        <image class="statsImage secondaryColour" href="stat_steps_solid_48px.png" />
+        <text id="stepsField" class="statsField secondaryColour" />
+      </use>
+      <use href="#cycleview-item">
+        <image class="statsImage secondaryColour" href="stat_dist_solid_48px.png" />
+        <text id="distanceField" class="statsField secondaryColour" />
+      </use>      
+      <use href="#cycleview-item">
+        <image class="statsImage secondaryColour" href="stat_floors_solid_48px.png" />
+        <text id="floorsField" class="statsField secondaryColour" />
+      </use>
+      <use href="#cycleview-item">
+        <image class="statsImage secondaryColour" href="stat_cals_solid_48px.png" />
+        <text id="calsField" class="statsField secondaryColour" />
+      </use>
+    </use>
+  </section>
+</svg>

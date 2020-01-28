@@ -1,0 +1,27 @@
+{
+  "fitbit": {
+    "appUUID": "a7821930-b625-4d38-acb2-d7518e748f4b",
+    "appType": "clockface",
+    "appDisplayName": "Digital Stats v3",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Digital Stats v3"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.1.0"
+  }
+}
